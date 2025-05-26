@@ -33,7 +33,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kelime Öğrenme', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: const Text('Kelim Öğrenme',
+            style: TextStyle(fontWeight: FontWeight.bold)),
         actions: [
           IconButton(
             icon: const Icon(Icons.quiz),
@@ -71,14 +72,17 @@ class _HomeScreenState extends State<HomeScreen> {
                     tag: word.id,
                     child: Card(
                       elevation: 3,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12)),
                       child: InkWell(
                         borderRadius: BorderRadius.circular(12),
                         onTap: () => Navigator.push(
                           context,
                           PageRouteBuilder(
-                            transitionDuration: const Duration(milliseconds: 600),
-                            pageBuilder: (_, __, ___) => WordDetailScreen(word: word),
+                            transitionDuration:
+                                const Duration(milliseconds: 600),
+                            pageBuilder: (_, __, ___) =>
+                                WordDetailScreen(word: word),
                             transitionsBuilder: (_, animation, __, child) {
                               return SlideTransition(
                                 position: Tween<Offset>(
@@ -91,7 +95,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 12, vertical: 8),
                           child: Row(
                             children: [
                               Expanded(
@@ -99,9 +104,13 @@ class _HomeScreenState extends State<HomeScreen> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text(word.ingilizce, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                                    Text(word.ingilizce,
+                                        style: const TextStyle(
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.bold)),
                                     const SizedBox(height: 4),
-                                    Text(word.turkce, style: const TextStyle(fontSize: 14)),
+                                    Text(word.turkce,
+                                        style: const TextStyle(fontSize: 14)),
                                   ],
                                 ),
                               ),
