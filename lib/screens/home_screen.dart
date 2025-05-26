@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kelim Öğrenme',
+        title: const Text('Kelime Öğrenme',
             style: TextStyle(fontWeight: FontWeight.bold)),
         actions: [
           IconButton(
