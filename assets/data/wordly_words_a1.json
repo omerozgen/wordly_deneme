@@ -1,0 +1,354 @@
+[
+    {
+      "id": 1,
+      "ingilizce": "Bicycle",
+      "turkce": "Bisiklet",
+      "ornek_cumle": "He rides his bicycle every day.",
+      "seviye": "A1"
+    },
+    {
+      "id": 2,
+      "ingilizce": "Arrive",
+      "turkce": "Varmak",
+      "ornek_cumle": "They will arrive at 6 PM.",
+      "seviye": "A1"
+    },
+    {
+      "id": 4,
+      "ingilizce": "Blue",
+      "turkce": "Mavi",
+      "ornek_cumle": "The sky is blue.",
+      "seviye": "A1"
+    },
+    {
+      "id": 6,
+      "ingilizce": "Accept",
+      "turkce": "Kabul etmek",
+      "ornek_cumle": "He did not accept the gift.",
+      "seviye": "A1"
+    },
+    {
+      "id": 7,
+      "ingilizce": "Bank",
+      "turkce": "Banka",
+      "ornek_cumle": "I need to go to the bank.",
+      "seviye": "A1"
+    },
+    {
+      "id": 8,
+      "ingilizce": "Apple",
+      "turkce": "Elma",
+      "ornek_cumle": "I eat an apple every morning.",
+      "seviye": "A1"
+    },
+    {
+      "id": 10,
+      "ingilizce": "Beautiful",
+      "turkce": "Güzel",
+      "ornek_cumle": "What a beautiful day!",
+      "seviye": "A1"
+    },
+    {
+      "id": 11,
+      "ingilizce": "Bird",
+      "turkce": "Kuş",
+      "ornek_cumle": "The bird is singing.",
+      "seviye": "A1"
+    },
+    {
+      "id": 15,
+      "ingilizce": "Answer",
+      "turkce": "Cevap",
+      "ornek_cumle": "Please answer the question.",
+      "seviye": "A1"
+    },
+    {
+      "id": 17,
+      "ingilizce": "Accident",
+      "turkce": "Kaza",
+      "ornek_cumle": "She was in a car accident.",
+      "seviye": "A1"
+    },
+    {
+      "id": 18,
+      "ingilizce": "Beach",
+      "turkce": "Plaj",
+      "ornek_cumle": "We walked on the beach.",
+      "seviye": "A1"
+    },
+    {
+      "id": 19,
+      "ingilizce": "Bag",
+      "turkce": "Çanta",
+      "ornek_cumle": "She carried a big bag.",
+      "seviye": "A1"
+    },
+    {
+      "id": 20,
+      "ingilizce": "Bedroom",
+      "turkce": "Yatak odası",
+      "ornek_cumle": "My bedroom is upstairs.",
+      "seviye": "A1"
+    },
+    {
+      "id": 24,
+      "ingilizce": "Because",
+      "turkce": "Çünkü",
+      "ornek_cumle": "I’m happy because I passed.",
+      "seviye": "A1"
+    },
+    {
+      "id": 29,
+      "ingilizce": "Animal",
+      "turkce": "Hayvan",
+      "ornek_cumle": "The elephant is a big animal.",
+      "seviye": "A1"
+    },
+    {
+      "id": 34,
+      "ingilizce": "Birthday",
+      "turkce": "Doğum günü",
+      "ornek_cumle": "Today is my birthday.",
+      "seviye": "A1"
+    },
+    {
+      "id": 41,
+      "ingilizce": "Black",
+      "turkce": "Siyah",
+      "ornek_cumle": "He has black shoes.",
+      "seviye": "A1"
+    },
+    {
+      "id": 51,
+      "ingilizce": "Baby",
+      "turkce": "Bebek",
+      "ornek_cumle": "The baby is sleeping.",
+      "seviye": "A1"
+    },
+    {
+      "id": 61,
+      "ingilizce": "Advice",
+      "turkce": "Tavsiye",
+      "ornek_cumle": "He gave me good advice.",
+      "seviye": "A1"
+    },
+    {
+      "id": 63,
+      "ingilizce": "Airport",
+      "turkce": "Havaalanı",
+      "ornek_cumle": "We arrived at the airport early.",
+      "seviye": "A1"
+    },
+
+    {
+      "id": 22,
+      "ingilizce": "Afraid",
+      "turkce": "Korkmuş",
+      "ornek_cumle": "He is afraid of the dark.",
+      "seviye": "A1"
+    },
+    {
+      "id": 23,
+      "ingilizce": "Afternoon",
+      "turkce": "Öğleden sonra",
+      "ornek_cumle": "We will meet in the afternoon.",
+      "seviye": "A1"
+    },
+    {
+      "id": 24,
+      "ingilizce": "Airport",
+      "turkce": "Havaalanı",
+      "ornek_cumle": "They arrived at the airport.",
+      "seviye": "A1"
+    },
+    {
+      "id": 25,
+      "ingilizce": "Angry",
+      "turkce": "Kızgın",
+      "ornek_cumle": "She was angry with her brother.",
+      "seviye": "A1"
+    },
+    {
+      "id": 26,
+      "ingilizce": "Animal",
+      "turkce": "Hayvan",
+      "ornek_cumle": "The zoo has many animals.",
+      "seviye": "A1"
+    },
+    {
+      "id": 27,
+      "ingilizce": "Answer",
+      "turkce": "Cevap",
+      "ornek_cumle": "He didn’t know the answer.",
+      "seviye": "A1"
+    },
+    {
+      "id": 28,
+      "ingilizce": "Apartment",
+      "turkce": "Daire",
+      "ornek_cumle": "They live in a small apartment.",
+      "seviye": "A1"
+    },
+    {
+      "id": 29,
+      "ingilizce": "April",
+      "turkce": "Nisan",
+      "ornek_cumle": "Her birthday is in April.",
+      "seviye": "A1"
+    },
+    {
+      "id": 30,
+      "ingilizce": "Artist",
+      "turkce": "Sanatçı",
+      "ornek_cumle": "She is a famous artist.",
+      "seviye": "A1"
+    },
+    {
+      "id": 31,
+      "ingilizce": "Aunt",
+      "turkce": "Hala",
+      "ornek_cumle": "My aunt is visiting us.",
+      "seviye": "A1"
+    },
+    {
+      "id": 32,
+      "ingilizce": "Autumn",
+      "turkce": "Sonbahar",
+      "ornek_cumle": "Autumn leaves are beautiful.",
+      "seviye": "A1"
+    },
+    {
+      "id": 33,
+      "ingilizce": "Baby",
+      "turkce": "Bebek",
+      "ornek_cumle": "The baby is crying.",
+      "seviye": "A1"
+    },
+    {
+      "id": 34,
+      "ingilizce": "Bag",
+      "turkce": "Çanta",
+      "ornek_cumle": "This bag is heavy.",
+      "seviye": "A1"
+    },
+    {
+      "id": 35,
+      "ingilizce": "Ball",
+      "turkce": "Top",
+      "ornek_cumle": "The ball is red.",
+      "seviye": "A1"
+    },
+    {
+      "id": 36,
+      "ingilizce": "Banana",
+      "turkce": "Muz",
+      "ornek_cumle": "I like eating bananas.",
+      "seviye": "A1"
+    },
+    {
+      "id": 37,
+      "ingilizce": "Bank",
+      "turkce": "Banka",
+      "ornek_cumle": "She works at a bank.",
+      "seviye": "A1"
+    },
+    {
+      "id": 38,
+      "ingilizce": "Bathroom",
+      "turkce": "Banyo",
+      "ornek_cumle": "The bathroom is clean.",
+      "seviye": "A1"
+    },
+    {
+      "id": 39,
+      "ingilizce": "Beautiful",
+      "turkce": "Güzel",
+      "ornek_cumle": "This is a beautiful place.",
+      "seviye": "A1"
+    },
+    {
+      "id": 40,
+      "ingilizce": "Because",
+      "turkce": "Çünkü",
+      "ornek_cumle": "I stayed home because it was raining.",
+      "seviye": "A1"
+    },
+    {
+      "id": 41,
+      "ingilizce": "Bed",
+      "turkce": "Yatak",
+      "ornek_cumle": "He is lying on the bed.",
+      "seviye": "A1"
+    },
+    {
+      "id": 42,
+      "ingilizce": "Bedroom",
+      "turkce": "Yatak odası",
+      "ornek_cumle": "The bedroom is upstairs.",
+      "seviye": "A1"
+    },
+    {
+      "id": 43,
+      "ingilizce": "Beer",
+      "turkce": "Bira",
+      "ornek_cumle": "He ordered a beer.",
+      "seviye": "A1"
+    },
+    {
+      "id": 44,
+      "ingilizce": "Before",
+      "turkce": "Önce",
+      "ornek_cumle": "Wash your hands before eating.",
+      "seviye": "A1"
+    },
+    {
+      "id": 45,
+      "ingilizce": "Begin",
+      "turkce": "Başlamak",
+      "ornek_cumle": "The class begins at 9.",
+      "seviye": "A1"
+    },
+    {
+      "id": 46,
+      "ingilizce": "Behind",
+      "turkce": "Arkasında",
+      "ornek_cumle": "The keys are behind the door.",
+      "seviye": "A1"
+    },
+    {
+      "id": 47,
+      "ingilizce": "Believe",
+      "turkce": "İnanmak",
+      "ornek_cumle": "I believe in you.",
+      "seviye": "A1"
+    },
+    {
+      "id": 48,
+      "ingilizce": "Best",
+      "turkce": "En iyi",
+      "ornek_cumle": "She is my best friend.",
+      "seviye": "A1"
+    },
+    {
+      "id": 49,
+      "ingilizce": "Better",
+      "turkce": "Daha iyi",
+      "ornek_cumle": "You look better today.",
+      "seviye": "A1"
+    },
+    {
+      "id": 50,
+      "ingilizce": "Between",
+      "turkce": "Arasında",
+      "ornek_cumle": "The ball is between the shoes.",
+      "seviye": "A1"
+    },
+    {
+      "id": 51,
+      "ingilizce": "Big",
+      "turkce": "Büyük",
+      "ornek_cumle": "That’s a big house.",
+      "seviye": "A1"
+    }
+  ]
+  
