@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/word_model.dart';
 import '../providers/word_provider.dart';
+import '../services/progress_service.dart';
 
 class QuizScreen extends StatefulWidget {
   const QuizScreen({super.key});
@@ -22,6 +23,8 @@ class _QuizScreenState extends State<QuizScreen> {
     super.initState();
     _words = context.read<WordProvider>().words;
     _loadNewQuestion();
+    // Günlük aktiviteyi kaydet
+    ProgressService.recordDailyActivity();
   }
 
   void _loadNewQuestion() {
@@ -41,11 +44,18 @@ class _QuizScreenState extends State<QuizScreen> {
     setState(() {});
   }
 
-  void _checkAnswer(String selected) {
+  void _checkAnswer(String selected) async {
     final isCorrect = selected == _currentWord.turkce;
     final message = isCorrect ? 'Doğru!' : 'Yanlış. Doğru cevap: ${_currentWord.turkce}';
 
-    if (isCorrect) _score++;
+    if (isCorrect) {
+      _score++;
+      await ProgressService.incrementCorrectAnswer();
+      // Doğru cevap verildiğinde kelimeyi öğrenilmiş olarak işaretle
+      await ProgressService.markWordAsLearned(_currentWord.id);
+    } else {
+      await ProgressService.incrementWrongAnswer();
+    }
 
     showDialog(
       context: context,

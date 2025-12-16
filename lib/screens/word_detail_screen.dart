@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:provider/provider.dart';
 import '../models/word_model.dart';
+import '../providers/word_provider.dart';
 
 class WordDetailScreen extends StatefulWidget {
   final Word word;
@@ -25,14 +27,25 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
     await flutterTts.speak(text);
   }
 
+  Future<void> _toggleFavorite() async {
+    final provider = context.read<WordProvider>();
+    await provider.toggleFavorite(widget.word.id);
+  }
+
   @override
   Widget build(BuildContext context) {
     final word = widget.word;
+    final isFavorite = context.watch<WordProvider>().isFavorite(word.id);
 
     return Scaffold(
       appBar: AppBar(
         title: Text(word.ingilizce),
         actions: [
+          IconButton(
+            icon: Icon(isFavorite ? Icons.favorite : Icons.favorite_border),
+            tooltip: isFavorite ? "Favorilerden çıkar" : "Favorilere ekle",
+            onPressed: _toggleFavorite,
+          ),
           IconButton(
             icon: const Icon(Icons.volume_up),
             tooltip: "Kelimeyi oku",
